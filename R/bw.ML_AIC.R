@@ -6,7 +6,7 @@
 #'@param mkernel by default `"gaussian"`. It can be any of the kernel supported by `density` function
 #'@return Optimal bandwidth with scale adjustment
 #'@examples
-#'install.packages("nor1Mix")
+#'install.packages("nor1mix")
 #'library(nor1mix)  #need to install
 #'ex1 <- norMix(mu = c(-2, 2),sigma = c(1, 0.8),w = c(.4, .6))
 #'data1 <- rnorMix(300,ex1)  #generated data from Mixture Normal
@@ -78,7 +78,7 @@ Optimal.KDE_ML <- function(data,k = 2,mplot = FALSE,mkernel = "gaussian"){
 #'@param mkernel by default `"gaussian"`. It can be any of the kernel supported by `density` function
 #'@return Optimal bandwidth with scale adjustment
 #'@examples
-#'install.packages("nor1Mix")
+#'install.packages("nor1mix")
 #'library(nor1mix) # Need to install
 #'ex2 <- norMix(mu = c(-2, 0,2),sigma = c(0.6,0.4,0.6),w = c(0.3,0.4,0.3))
 #'data2 <- rnorMix(300,ex2)  #generated data from Mixture Normal
