@@ -18,7 +18,9 @@ Optimal.KDE_ML <- function(data,k = 2,mplot = FALSE,mkernel = "gaussian"){
   if(k < 2){
     stop("k must be a finite integer greater than 1")
   }
-  
+  if(!is.integer(k)){
+    stop("k must be a finite integer greater than 1")
+  } 
   eta <- switch(mkernel,gaussian = 1,rectangular = 1/sqrt(3),
                 triangular = 1/sqrt(6),epanechnikov = 1/sqrt(5),
                 biweight = 1/sqrt(7),optcosine = sqrt(1-8/pi^2),
