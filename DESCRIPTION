@@ -1,0 +1,9 @@
+Package: bwNew
+Type: Package
+Title: Finds Optimal Bandwidth In Kernel Density Estimation
+Author: Shrayan Roy
+Maintainer: Shrayan Roy <shrayan420@gmail.com>
+Description: Collection of functions to find Optimal Bandwidth for Kernel Density Estimation using new methods based on K-Fold Maximum Likelihood and AIC.
+Version: 0.0.1.0
+Encoding: UTF-8
+RoxygenNote: 7.2.3
