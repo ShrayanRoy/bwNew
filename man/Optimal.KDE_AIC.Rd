@@ -20,7 +20,7 @@ Optimal bandwidth with scale adjustment
 To Find Optimal Band Width Using AIC
 }
 \examples{
-install.packages("nor1Mix")
+install.packages("nor1mix")
 library(nor1mix) # Need to install
 ex2 <- norMix(mu = c(-2, 0,2),sigma = c(0.6,0.4,0.6),w = c(0.3,0.4,0.3))
 data2 <- rnorMix(300,ex2)  #generated data from Mixture Normal
