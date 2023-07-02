@@ -22,7 +22,7 @@ Optimal bandwidth with scale adjustment
 To Find Optimal Band Width Using K-Fold Maximum Likelihood Method
 }
 \examples{
-install.packages("nor1Mix")
+install.packages("nor1mix")
 library(nor1mix)  #need to install
 ex1 <- norMix(mu = c(-2, 2),sigma = c(1, 0.8),w = c(.4, .6))
 data1 <- rnorMix(300,ex1)  #generated data from Mixture Normal
