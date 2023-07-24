@@ -1,4 +1,4 @@
-# bwNew
+# bwNew <img src="man/logo.png" style="float:right; height:200px;" />
 Collection of functions to find Optimal Bandwidth for Kernel Density Estimation using new methods based on K-Fold Maximum Likelihood and AIC. 
 This is the outcome of the project done by me under my respected professor Dr. Deepayan Sarkar at ISID. 
 
